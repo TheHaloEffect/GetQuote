@@ -16,6 +16,11 @@ body {
     justify-content: center;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
 .quote-container {
     background-color: rgba(255, 255, 255, 0.5);
     width: auto;
@@ -41,6 +46,22 @@ body {
 
 .fa-quote-left, .fa-quote-right {
     font-size: 3rem;
+}
+
+.btn-container {
+    margin-top: 20px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    height: 2.5rem;
 }
 
 

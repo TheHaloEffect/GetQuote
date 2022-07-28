@@ -13,14 +13,18 @@
         <div class="quote-container">
             <div class="quote-text">
                 <i class="fa fa-quote-left"></i>
-                <span class="quote" id="quote"></span>
+                <a id="quote-link" href=""><span class="quote" id="quote"></span></a>
                 <i class="fa fa-quote-right"></i>
             </div>
             <div class="author-text">
                 <span class="author" id="author"></span>
             </div>
-            <div class="quote-btns">
-
+            <div class="btn-container">
+                <button id="quote-btn">Random Quote</button>
+                <select name="change-lang" id="change-lang" onchange="getLanguage()">
+                    <option value="en">English</option>
+                    <option value="ru">Russian</option>
+                  </select>
             </div>
         </div>
 
